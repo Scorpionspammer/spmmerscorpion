@@ -7,9 +7,9 @@ from DEADLYSPAM import CMD_HNDLR as hl
     
 HELP_PIC = "https://te.legra.ph/file/33ec48ede8f590f9c40b0.jpg"
 
-DEAD_Help = "🔥 Dᴇᴀᴅʟʏ Sᴘᴀᴍ Bᴏᴛ 🔥\n\n"
+DEAD_Help = "🔥 Scorpion Sᴘᴀᴍ Bᴏᴛ 🔥\n\n"
  
-DEAD_Help += f"_ᴄᴍɴᴅs ᴀᴠᴀɪʟᴀʙʟᴇ ɪɴ ᴅᴇᴀᴅʟʏ ʙᴏᴛ__\n\n"
+DEAD_Help += f"_ᴄᴍɴᴅs ᴀᴠᴀɪʟᴀʙʟᴇ ɪɴ Scorpion ʙᴏᴛ__\n\n"
 
 DEAD_Help += f" ↧ 𝚄𝚂𝙴𝚁𝙱𝙾𝚃 𝙲𝙼𝙳𝚂 ↧\n\n"
 
@@ -25,7 +25,7 @@ DEAD_Help += f" `.raid` - to raid\n `.replyraid` - to active reply raid\n `.drep
 
 DEAD_Help += f" .deadlyspam - ɪ ᴡɪʟʟ ꜱᴜɢɢᴇꜱᴛ ᴅᴏɴ'ᴛ ᴜꜱᴇ ᴛʜɪꜱ ᴄᴏᴍᴍᴀɴᴅ😂 ↧\n\n"
 
-DEAD_Help += f"© @DEADLY_SPAM_BOT\n"
+DEAD_Help += f"© @SCORPIONxARMY\n"
 
 
 @BOT0.on(events.NewMessage(incoming=True, pattern=r"\%shelp(?: |$)(.*)" % hl))
@@ -36,7 +36,7 @@ async def help(event):
                                   caption=DEAD_Help,
                                   buttons=[
         [
-        Button.url("ᴄʜᴀɴɴᴇʟ", "https://t.me/Deadly_spambot")
+        Button.url("ᴄʜᴀɴɴᴇʟ", "https://t.me/SCORPIONxARMY")
         ] 
         ]
         )
